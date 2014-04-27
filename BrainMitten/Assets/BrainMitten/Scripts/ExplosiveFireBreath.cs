@@ -8,6 +8,7 @@ public class ExplosiveFireBreath : MonoBehaviour {
 	public float breathForce = 20f;
 	public Collider breathSpace;
 	public GameObject fire;
+	public AudioClip fireAudio;
 
 	// Update is called once per frame
 	void Update () {
@@ -18,6 +19,7 @@ public class ExplosiveFireBreath : MonoBehaviour {
 		nextFireTime = Time.time + cooldownDelay;
 		fire.particleSystem.Play();
 		Debug.Log ("Explosion");
+		audio.PlayOneShot(fireAudio);
 		Vector3 explosionPos = breathSpace.transform.position;
 		float radius = Vector3.Distance (transform.position, explosionPos);
 		Collider[] colliders = Physics.OverlapSphere(explosionPos, radius);
