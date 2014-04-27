@@ -47,11 +47,13 @@
   </ItemGroup>
   <ItemGroup>
      <Compile Include="Assets\BrainMitten\Scripts\Explosion.cs" />
+     <Compile Include="Assets\BrainMitten\Scripts\ExplosiveFireBreath.cs" />
+     <Compile Include="Assets\BrainMitten\Scripts\Magnetism.cs" />
      <Compile Include="Assets\BrainMitten\Scripts\PlayerMovement.cs" />
      <Compile Include="Assets\BrainMitten\Scripts\RepulsiveGravity.cs" />
+     <Compile Include="Assets\BrainMitten\Scripts\SceneTransition.cs" />
      <Compile Include="Assets\BrainMitten\Scripts\SplashScene.cs" />
      <Compile Include="Assets\BrainMitten\Scripts\StuckInSphere.cs" />
-     <Compile Include="Assets\ExplosiveFireBreath.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Assembly-UnityScript-firstpass.unityproj">
