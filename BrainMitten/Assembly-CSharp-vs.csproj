@@ -49,7 +49,9 @@
      <Compile Include="Assets\BrainMitten\Scripts\Explosion.cs" />
      <Compile Include="Assets\BrainMitten\Scripts\PlayerMovement.cs" />
      <Compile Include="Assets\BrainMitten\Scripts\RepulsiveGravity.cs" />
+     <Compile Include="Assets\BrainMitten\Scripts\SplashScene.cs" />
      <Compile Include="Assets\BrainMitten\Scripts\StuckInSphere.cs" />
+     <Compile Include="Assets\ExplosiveFireBreath.cs" />
  <Reference Include="Assembly-UnityScript-firstpass">
  <HintPath>Library\ScriptAssemblies\Assembly-UnityScript-firstpass.dll</HintPath>
  </Reference>

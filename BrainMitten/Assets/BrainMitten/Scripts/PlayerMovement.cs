@@ -1,4 +1,4 @@
-﻿using UnityEngine;
+using UnityEngine;
 using System.Collections;
 
 public class PlayerMovement : MonoBehaviour {
@@ -8,9 +8,12 @@ public class PlayerMovement : MonoBehaviour {
 	void FixedUpdate () {
 		float h = Input.GetAxis("Horizontal");
 		float v = Input.GetAxis("Vertical");
-		
-		Vector3 velocity = (new Vector3 (h,0,v)).normalized*maxSpeed;
-		
+
+		Vector3 direction = (new Vector3 (h, 0, v)).normalized;
+		Vector3 velocity = direction*maxSpeed;
+
+		if(direction.magnitude > 0)
+			rigidbody.transform.forward = direction;
 		rigidbody.velocity = velocity;
 	}
 }
