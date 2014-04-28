@@ -5,6 +5,8 @@ Project("{C1EE5C5C-F9C7-C268-EDC7-7B805F2EF1B8}") = "BrainMitten", "Assembly-CSh
 EndProject
 Project("{C1EE5C5C-F9C7-C268-EDC7-7B805F2EF1B8}") = "BrainMitten", "Assembly-UnityScript-firstpass.unityproj", "{4ED97A45-6C6B-7D01-FCAB-D025FB62BAF2}"
 EndProject
+Project("{C1EE5C5C-F9C7-C268-EDC7-7B805F2EF1B8}") = "BrainMitten", "Assembly-UnityScript-Editor.unityproj", "{73224283-8C62-9F0E-54CE-9B254E360AF1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -19,11 +21,15 @@ Global
 		{4ED97A45-6C6B-7D01-FCAB-D025FB62BAF2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4ED97A45-6C6B-7D01-FCAB-D025FB62BAF2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4ED97A45-6C6B-7D01-FCAB-D025FB62BAF2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{73224283-8C62-9F0E-54CE-9B254E360AF1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{73224283-8C62-9F0E-54CE-9B254E360AF1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{73224283-8C62-9F0E-54CE-9B254E360AF1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{73224283-8C62-9F0E-54CE-9B254E360AF1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
-								GlobalSection(MonoDevelopProperties) = preSolution
+																																											GlobalSection(MonoDevelopProperties) = preSolution
 		StartupItem = Assembly-CSharp.csproj
 		Policies = $0
 		$0.TextStylePolicy = $1
