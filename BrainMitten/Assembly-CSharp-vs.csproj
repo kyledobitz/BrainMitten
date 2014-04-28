@@ -46,6 +46,7 @@
 	</Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\BrainMitten\Scripts\DestroyBuildingSounds.cs" />
      <Compile Include="Assets\BrainMitten\Scripts\Explosion.cs" />
      <Compile Include="Assets\BrainMitten\Scripts\ExplosiveFireBreath.cs" />
      <Compile Include="Assets\BrainMitten\Scripts\LightInputController.cs" />
@@ -56,13 +57,6 @@
      <Compile Include="Assets\BrainMitten\Scripts\SplashScene.cs" />
      <Compile Include="Assets\BrainMitten\Scripts\StuckInSphere.cs" />
      <Compile Include="Assets\BrainMitten\Scripts\WinningLightZoneScript.cs" />
-     <Compile Include="Assets\Splines\Scripts\HelperClasses\Set.cs" />
-     <Compile Include="Assets\Splines\Scripts\HelperClasses\Utility.cs" />
-     <Compile Include="Assets\Splines\Scripts\SplineClasses\Spline.cs" />
-     <Compile Include="Assets\Splines\Scripts\SplineClasses\SplineColliderDraw.cs" />
-     <Compile Include="Assets\Splines\Scripts\SplineClasses\SplineController.cs" />
-     <Compile Include="Assets\Splines\Scripts\SplineClasses\SplineNode.cs" />
-     <Compile Include="Assets\Splines\Scripts\SplineClasses\SplineTester.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

@@ -3,8 +3,6 @@ Microsoft Visual Studio Solution File, Format Version 11.00
 
 Project("{C1EE5C5C-F9C7-C268-EDC7-7B805F2EF1B8}") = "BrainMitten", "Assembly-CSharp-vs.csproj", "{EFCB5FC4-21C3-E761-B7F6-F01E25790B2E}"
 EndProject
-Project("{C1EE5C5C-F9C7-C268-EDC7-7B805F2EF1B8}") = "BrainMitten", "Assembly-CSharp-Editor-vs.csproj", "{A966C2A3-AEB6-B377-0149-F413E40D4A93}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,15 +13,11 @@ Global
 		{EFCB5FC4-21C3-E761-B7F6-F01E25790B2E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EFCB5FC4-21C3-E761-B7F6-F01E25790B2E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EFCB5FC4-21C3-E761-B7F6-F01E25790B2E}.Release|Any CPU.Build.0 = Release|Any CPU
-		{A966C2A3-AEB6-B377-0149-F413E40D4A93}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{A966C2A3-AEB6-B377-0149-F413E40D4A93}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{A966C2A3-AEB6-B377-0149-F413E40D4A93}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{A966C2A3-AEB6-B377-0149-F413E40D4A93}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
-																													GlobalSection(MonoDevelopProperties) = preSolution
+																																			GlobalSection(MonoDevelopProperties) = preSolution
 		StartupItem = Assembly-CSharp.csproj
 		Policies = $0
 		$0.TextStylePolicy = $1
