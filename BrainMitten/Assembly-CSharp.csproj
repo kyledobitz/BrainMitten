@@ -59,10 +59,6 @@
      <Compile Include="Assets\BrainMitten\Scripts\Wheraldo.cs" />
      <Compile Include="Assets\BrainMitten\Scripts\WinningLightZoneScript.cs" />
   </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="Assembly-UnityScript-firstpass.unityproj">
-      <Project>{4ED97A45-6C6B-7D01-FCAB-D025FB62BAF2}</Project>      <Name>Assembly-UnityScript-firstpass</Name>    </ProjectReference>
-  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
 	   Other similar extension points exist, see Microsoft.Common.targets.

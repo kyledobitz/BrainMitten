@@ -3,8 +3,6 @@ Microsoft Visual Studio Solution File, Format Version 11.00
 
 Project("{C1EE5C5C-F9C7-C268-EDC7-7B805F2EF1B8}") = "BrainMitten", "Assembly-CSharp.csproj", "{EFCB5FC4-21C3-E761-B7F6-F01E25790B2E}"
 EndProject
-Project("{C1EE5C5C-F9C7-C268-EDC7-7B805F2EF1B8}") = "BrainMitten", "Assembly-UnityScript-firstpass.unityproj", "{4ED97A45-6C6B-7D01-FCAB-D025FB62BAF2}"
-EndProject
 Project("{C1EE5C5C-F9C7-C268-EDC7-7B805F2EF1B8}") = "BrainMitten", "Assembly-UnityScript-Editor.unityproj", "{73224283-8C62-9F0E-54CE-9B254E360AF1}"
 EndProject
 Global
@@ -17,10 +15,6 @@ Global
 		{EFCB5FC4-21C3-E761-B7F6-F01E25790B2E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EFCB5FC4-21C3-E761-B7F6-F01E25790B2E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EFCB5FC4-21C3-E761-B7F6-F01E25790B2E}.Release|Any CPU.Build.0 = Release|Any CPU
-		{4ED97A45-6C6B-7D01-FCAB-D025FB62BAF2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{4ED97A45-6C6B-7D01-FCAB-D025FB62BAF2}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{4ED97A45-6C6B-7D01-FCAB-D025FB62BAF2}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{4ED97A45-6C6B-7D01-FCAB-D025FB62BAF2}.Release|Any CPU.Build.0 = Release|Any CPU
 		{73224283-8C62-9F0E-54CE-9B254E360AF1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{73224283-8C62-9F0E-54CE-9B254E360AF1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{73224283-8C62-9F0E-54CE-9B254E360AF1}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -29,7 +23,7 @@ Global
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
-																																											GlobalSection(MonoDevelopProperties) = preSolution
+																																												GlobalSection(MonoDevelopProperties) = preSolution
 		StartupItem = Assembly-CSharp.csproj
 		Policies = $0
 		$0.TextStylePolicy = $1

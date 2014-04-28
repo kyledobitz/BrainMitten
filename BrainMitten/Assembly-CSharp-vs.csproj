@@ -58,9 +58,6 @@
      <Compile Include="Assets\BrainMitten\Scripts\StuckInSphere.cs" />
      <Compile Include="Assets\BrainMitten\Scripts\Wheraldo.cs" />
      <Compile Include="Assets\BrainMitten\Scripts\WinningLightZoneScript.cs" />
- <Reference Include="Assembly-UnityScript-firstpass">
- <HintPath>Library\ScriptAssemblies\Assembly-UnityScript-firstpass.dll</HintPath>
- </Reference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
